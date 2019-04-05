@@ -3,12 +3,13 @@
 		<title>Project 2</title>
 	</head>
 	<body background="back.jpg">
-		<iframe src="menu.html" width="100%" style="height: 165px; border:0; background-color:transparent;"></iframe>
+		<iframe src="menu2.html" width="100%" style="height: 190px; border:0;"></iframe>
 		<h1>Some text</h1>
-		<img src="https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg">
-		<form>
-			<input type="text" placeholder="Full Name" name="name">
-			<button>Submit</button>
+		
+		<form action="file.php" method="post" enctype="multipart/form-data">
+			Select image to upload:
+			<input type="file" name="fileToUpload" id="fileToUpload">
+			<input type="submit" value="Upload Image" name="submit">
 		</form>
 	</body>
 </html>
